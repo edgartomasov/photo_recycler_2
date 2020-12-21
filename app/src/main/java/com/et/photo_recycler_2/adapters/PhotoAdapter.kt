@@ -33,8 +33,7 @@ class PhotoAdapter (items: List<PhotoModel>) : RecyclerView.Adapter<PhotoAdapter
     }
 
     override fun getItemCount(): Int {
-        //return items.size
-        return Int.MAX_VALUE
+        return items.size
     }
 
     class PhotoHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
